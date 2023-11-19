@@ -1,0 +1,11 @@
+# Project place file
+/supablox-supabase-in-roblox.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+/.vscode/
+/tests/
+/default.project.json
+/aftman.toml

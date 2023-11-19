@@ -1,0 +1,58 @@
+site_name: supabase-luau
+site_url: https://ecstatic5.github.io/supabase-luau
+repo_url: https://github.com/ecstatic5/supabase-luau
+repo_name: supabase-luau
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Tutorial: tutorial/installation.md
+  - Changelog: changelog.md
+  - API:
+    - supabase-luau Methods: api/supabase.md
+    - supabase-luau Types: api/supabase-types.md
+theme:
+    name: material
+    features:
+        - navigation.tabs
+        - navigation.sections
+        - toc.integrate
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - content.tabs.link
+        - content.code.annotation
+        - content.code.copy
+    language: en
+    palette:
+        - scheme: default
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+          primary: teal
+          accent: purple
+        - scheme: slate
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+          primary: teal
+          accent: lime
+
+markdown_extensions:
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.arithmatex:
+          generic: true
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.mark
+    - attr_list
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: © 2023 <a href="https://github.com/ecstatic5/supabase-luau" target="_blank" rel="noopener"> ecstatic5 (@isaac010901)
