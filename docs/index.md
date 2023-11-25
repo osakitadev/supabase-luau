@@ -14,10 +14,12 @@ The purpose of supabase-luau is to simplify too much the tedious task of persist
 
 > The purpose of this modulescript is not to replace DataStores, this script was made by and for the community, I do not want to replace the use of DataStores at all, as they can be useful in many cases
 
-## Example code
+---
 
-Now I will give you some code examples using supabase-luau
+## Learn more about supabase-luau
 
-```lua title="PlayerStats.lua" linenums="1"
-local a = true
-```
+- [About](./about.md)
+- [API](./api/supabase.md)
+- [Documentation](./documentation/installing-supabase-luau.md)
+- [Changelog](./changelog.md)
+- [Devforum topic](https://devforum.roblox.com/t/supabase-luau-providing-luau-with-powerful-tools/2708530)
