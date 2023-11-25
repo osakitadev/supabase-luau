@@ -9,8 +9,10 @@ nav:
   - Tutorial: tutorial/installation.md
   - Changelog: changelog.md
   - API:
-    - supabase-luau Methods: api/supabase.md
-    - supabase-luau Types: api/supabase-types.md
+    - Supabase: api/supabase.md
+    - Types: api/supabase-types.md
+    - Filters: api/supabase-filters.md
+    - Modifiers: api/supabase-modifiers.md
 theme:
     name: material
     features:
